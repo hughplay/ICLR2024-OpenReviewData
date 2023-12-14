@@ -1,6 +1,6 @@
-# Crawl and Visualize ICLR 2023 OpenReview Data
+# Crawl and Visualize ICLR 2024 OpenReview Data
 
-[![Website](https://badgen.net/badge/Open/webpage/purple?icon=chrome)](https://fedebotu.github.io/ICLR2023-OpenReviewData/submissions.html)[![Drive](https://badgen.net/badge/Download/dataset/blue?icon=chrome)](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing)
+<!-- [![Website](https://badgen.net/badge/Open/webpage/purple?icon=chrome)](https://fedebotu.github.io/ICLR2023-OpenReviewData/submissions.html)[![Drive](https://badgen.net/badge/Download/dataset/blue?icon=chrome)](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing) -->
 
 
 
@@ -9,12 +9,12 @@
     <img src="images/wordcloud_nice.png" width="720"/>
 </p>
 
-&rarr; Open full submission list [here](https://fedebotu.github.io/ICLR2023-OpenReviewData/submissions.html)
-&rarr; Download datasets [here](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing)
+<!-- &rarr; Open full submission list [here](https://fedebotu.github.io/ICLR2024-OpenReviewData/submissions.html) -->
+<!-- &rarr; Download datasets [here](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing) -->
 
 ## Description
 
-This repository contains code to crawl and visualize the data from the [ICLR 2023 OpenReview](https://openreview.net/group?id=ICLR.cc/2023/Conference). Crawling is done via parallel `requests` directly to OpenReview's API, which is way faster than `selenium` - in the order of `10-100x`. It also saves datasets that can be used for further analysis, including all reviews and rebuttals and PDF files metadata and text.
+This repository contains code to crawl and visualize the data from the [ICLR 2024 OpenReview](https://openreview.net/group?id=ICLR.cc/2024/Conference). Crawling is done via parallel `requests` directly to OpenReview's API, which is way faster than `selenium` - in the order of `10-100x`. It also saves datasets that can be used for further analysis, including all reviews and rebuttals and PDF files metadata and text.
 
 
 
@@ -37,7 +37,7 @@ And run the notebooks under the `notebooks/`  folder:
 
 ### Rating Distribution
 <p align="center">
-    <img src="images/20221120/stats_barplot.png" width="720"/>
+    <img src="images/stats_barplot.png" width="720"/>
 </p> 
 
 ### Top 50 Keywords
@@ -47,7 +47,7 @@ And run the notebooks under the `notebooks/`  folder:
 
 ### Keywords vs Ratings
 <p align="center">
-    <img src="images/20221120/keyword_rating.png" width="720"/>
+    <img src="images/keyword_rating.png" width="720"/>
 </p> 
 
 ### Wordcloud
@@ -57,24 +57,24 @@ And run the notebooks under the `notebooks/`  folder:
 
 ### Review Lengths
 <p align="center">
-    <img src="images/20221120/review_length_hist.png" width="720"/>
+    <img src="images/review_length_hist.png" width="720"/>
 </p> 
 
 
 ### Review Lengths by Rating
 <p align="center">
-    <img src="images/20221120/review_length_by_rating.png" width="720"/>
+    <img src="images/review_length_by_rating.png" width="720"/>
 </p> 
 
 
 ### Review Lengths by Confidence
 <p align="center">
-    <img src="images/20221120/review_length_by_confidence.png" width="720"/>
+    <img src="images/review_length_by_confidence.png" width="720"/>
 </p> 
 
 ### Paper Length (pages) vs Rating
 <p align="center">
-    <img src="images/20221120/num_pages_vs_ratings.png" width="720"/>
+    <img src="images/num_pages_vs_ratings.png" width="720"/>
 </p> 
 
 ## Feedback
